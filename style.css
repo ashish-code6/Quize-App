@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(136deg,rgb(23, 117, 175),rgb(215, 18, 233));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    background-color: aliceblue;
+    min-width: 50%;
+    min-height: 80vh;
+    border-radius: 12px;
+    filter: drop-shadow(0 0 10px rgba(7, 237, 38, 0.5));
+    padding: 30px;
+}
+.container h1{
+    border-bottom: 2px groove purple;
+    font-weight: 25px;
+    padding-bottom: 30px;
+}
+.quiz{
+    padding: 20px 0;
+
+}
+.quiz h3{
+    font-size: 18px;
+}
+.btn{
+    width: 100%;
+    padding: 15px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    /* outline: none; */
+    border: none;
+    font-size: 15px;
+    transition: all 0.3s;
+}
+/* .btn:hover{
+    background-color: black;
+    color: azure;
+} */
+#submit-button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+    font-size: 15px;
+    color: aliceblue;
+    width: 150px;
+    margin: 10px auto;
+    display: none;
+    cursor: pointer;
+}
+.correct{
+    background-color: greenyellow;
+    font-size: 18px;
+    color: blue;
+}
+.wrong{
+    background-color: red;
+    font-size: 18px;
+    color: blue;
+}
+/* Resposive */
+@media screen and (max-width:750px) {
+    .container{
+        margin: auto 50px;
+    }
+    
+}
